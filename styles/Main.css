@@ -7,6 +7,10 @@ body {
     padding: 0;
 }
 
+footer {
+    background-color: #f79acf;
+}
+
 .img-cards {
     width: 25vh;
     height: 20vh;
@@ -91,4 +95,38 @@ header {
     width: 80%;
     /* text-align: justify; */
     font-size: x-large;
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 10px;
+}
+
+.name {
+    font-size: 16px;
+    color: #555;
 }
