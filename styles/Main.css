@@ -1,0 +1,94 @@
+body {
+    background-color: #f0f0f0;
+    font-family: "Belleza", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.img-cards {
+    width: 25vh;
+    height: 20vh;
+    margin-left: 10vh;
+    border-radius: 15px;
+    margin-top: 3vh;
+}
+
+.select-product {
+    margin: 3vh;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+.btn-cards {
+    border: #f378be 1px solid;
+    color: #d66ba8;
+}
+
+.btn-cards:hover {
+    background-color: #f79acf;
+    border: #d66ba8;
+    color: #d66ba8;
+
+}
+
+.title-text {
+    margin: 3vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+
+a:hover {
+    font-size: larger;
+    background-color: #ebe1e1;
+    border-radius: 10px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.img-container {
+    width: 100%;
+    height: 40vh;
+    background-color: none;
+}
+
+.img-header {
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.text-overlay {
+    width: 100%;
+    height: 100%;
+}
+
+.container-text {
+    margin: 10vh;
+    word-wrap: break-word;
+    width: 80%;
+    /* text-align: justify; */
+    font-size: x-large;
+}
