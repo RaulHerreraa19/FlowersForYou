@@ -40,13 +40,13 @@ header {
     margin: 3vh;
 }
 
-a {
+.abox {
     text-decoration: none;
     color: black;
     padding: 15px;
 }
 
-a:hover {
+.abox:hover {
     font-size: larger;
     background-color: #ebe1e1;
     border-radius: 10px;
