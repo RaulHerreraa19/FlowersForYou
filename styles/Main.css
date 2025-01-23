@@ -22,7 +22,7 @@ footer {
 
 .select-prod {
     object-fit: cover;
-    height: 20vh;
+    height: 35vh;
 
 }
 
@@ -209,4 +209,18 @@ header {
 
 .social-icons a:hover {
     color: #ff7a33;
+}
+
+@media screen and (max-width: 768px) {
+    .container-text {
+        margin: 0;
+    }
+
+    .img-header {
+        height: 40vh;
+    }
+
+    .text-overlay {
+        height: auto;
+    }
 }
