@@ -12,11 +12,12 @@ footer {
 }
 
 .img-cards {
-    width: 25vh;
+    object-fit: cover;
+    /* width: 25vh; */
     height: 20vh;
-    margin-left: 16vh;
+    /* margin-left: 16vh; */
     border-radius: 15px;
-    margin-top: 3vh;
+    /* margin-top: 3vh;
 }
 
 .select-product {
