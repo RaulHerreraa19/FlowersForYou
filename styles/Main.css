@@ -11,13 +11,14 @@ footer {
     background-color: #f79acf;
 }
 
-.img-cards {
+
+
+.select-prod {
     object-fit: cover;
     /* width: 25vh; */
     height: 20vh;
     /* margin-left: 16vh; */
     border-radius: 15px;
-    /* margin-top: 3vh;
 }
 
 .select-product {
