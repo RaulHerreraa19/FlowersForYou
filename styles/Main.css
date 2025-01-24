@@ -7,10 +7,6 @@ body {
     padding: 0;
 }
 
-footer {
-    background-color: #73273B;
-}
-
 .img-conocenos {
     height: 30vh;
     border-radius: 30px;
@@ -264,6 +260,37 @@ header {
 
 .whatsapp {
     background-color: #25d366;
+}
+
+footer {
+    background-color: #2e3b4e;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.footer-icons a {
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.footer-icons a:hover {
+    color: #c1c1c1;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.divider {
+    border-top: 1px solid #ffffff;
+    margin: 10px 0;
 }
 
 @media screen and (max-width: 768px) {
