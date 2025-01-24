@@ -272,10 +272,21 @@ header {
     }
 
     .img-header {
-        height: 40vh;
+        height: 70vh;
     }
 
     .text-overlay {
         height: auto;
+        top: 50%;
     }
+
+    .img-container {
+        height: 55vh;
+        object-fit: contain;
+    }
+
+    .container-text {
+        margin-left: 3vh;
+    }
+
 }
