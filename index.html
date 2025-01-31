@@ -7,6 +7,7 @@
     <link rel="icon" href="img/iconWEB.jpg" type="image/x-icon">
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet">        
     <link href="fontawesome/all.min.css" rel="stylesheet">
@@ -15,31 +16,26 @@
 </head>
 <body>
     <header>
-        <nav class="navbar bg-body-tertiary navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid text-center">               
-                    <img src="img/iconWEB.jpg" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">                    
-            </div>
-            <div class="container-fluid abox">  
-                <a class="navbar-brand text-center" href="">
-                    Inicio
-                </a>
-            </div>
-            <div class="container-fluid abox">
-                <a class="navbar-brand text-center" href="">
-                    Nuestros Productos
-                </a>
-            </div>
-            <div class="container-fluid abox">
-                <a class="navbar-brand text-center" href="">
-                    Contacto
-                </a>
-            </div>
-            <div class="container-fluid abox">
-                <a class="navbar-brand text-center" href="">
-                    Conócenos
-                </a>
-            </div>                            
-        </nav>
+        <!-- Modifica el nav en el HTML -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a href="index.html">
+      <img src="img/iconWEB.jpg" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
+    </a>    
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-nav mx-auto">
+              <a class="nav-link text-center" href="#">Inicio</a>
+              <a class="nav-link text-center" href="#">Productos</a>
+              <a class="nav-link text-center" href="#">Contacto</a>
+              <a class="nav-link text-center" href="#">Conócenos</a>
+          </div>
+      </div>
+  </div>
+</nav>
         <div class="img-container position-relative">
             <img src="portada3.jpeg" alt="Flowers" class="img-header img-fluid">
             <div class="text-overlay ">
@@ -75,7 +71,7 @@
                         <div class="card-body">
                             <h3 class="product-title">Curso Individual</h3>
                             <p class="product-description">Aprende arte floral con un curso personalizado. <br> Domina lo básico y eleva tus habilidades creativas. </p>
-                            <a href="curso/cursoIndividual.html" class="btn btn-outline-primary btn-cards">Más Información</a>
+                            <a href="curso/curso.html" class="btn btn-outline-primary btn-cards">Más Información</a>
                         </div>
                     </div>                   
                 </div>                

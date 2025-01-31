@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto - Tienda</title>
+    <link rel="icon" href="/img/iconWEB.jpg" type="image/x-icon">
+    <link href="../Curso/styles/cursostlyes.css/cursostyles.css " rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet">        
+    <link rel="stylesheet" href="../styles/Main.css">
+
+</head>
+<body>
+    <header>
+        <!-- Modifica el nav en el HTML -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+      <a href="/">
+      <img src="../img/iconWEB.jpg" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
+    </a> 
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-nav mx-auto">
+              <a class="nav-link text-center" href="#">Inicio</a>
+              <a class="nav-link text-center" href="#">Productos</a>
+              <a class="nav-link text-center" href="#">Contacto</a>
+              <a class="nav-link text-center" href="#">Conócenos</a>
+          </div>
+      </div>
+  </div>
+</nav>
+        <div class="img-container position-relative">
+            <img src="../portada3.jpeg" alt="Flowers" class="img-header img-fluid">
+            <div class="text-overlay ">
+                <div class="text-center container-text">
+                    <h1>FlowersForYou - Colima</h1>
+                    <p>nace de un sueño desde niña, donde
+                        las flores cuentan historias y donde cada ramo es
+                        hecho con amor y cuidado. Somos una florería en
+                        línea creada para que encuentres siempre el
+                        detalle perfecto, para que cualquier momento sea
+                        recordado con la magia de las flores.</p>
+                </div>
+            </div>
+        </div>       
+    </header>
+    <div class="container mt-4">
+        <div class="card product-card shadow p-4">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="d-flex flex-column align-items-center">
+                        <img id="mainImage" src="../img/curso/IMG-20250119-WA0028.jpg" class="img-fluid mb-3" alt="Producto">
+                        <div class="d-flex">
+                            <img src="../img/curso/IMG-20250119-WA0028.jpg" class="thumbnail selected" onclick="changeImage(this)">
+                            <img src="../img/curso/IMG-20250119-WA0029.jpg" class="thumbnail" onclick="changeImage(this)">
+                            <img src="../img/curso/IMG-20250119-WA0030.jpg" class="thumbnail" onclick="changeImage(this)">
+                                                    
+                        </div>
+                        <div class="d-flex">
+                            <img src="../img/curso/IMG-20250119-WA0032.jpg" class="thumbnail" onclick="changeImage(this)">
+                            <img src="../img/curso/IMG-20250119-WA0034.jpg" class="thumbnail" onclick="changeImage(this)">
+                            <img src="../img/curso/IMG-20250119-WA0035.jpg" class="thumbnail" onclick="changeImage(this)">                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <h4>Curso de Arte Floral</h4>
+                    <p class="text-muted">Domina el arte de las flores con nosotros</p>
+                    <div class="d-flex align-items-center">
+                        <span class="badge bg-success">4.9 ★★★★★</span>
+                        <small class="ms-2 text-muted"></small>
+                    </div>
+                    <p class="price mt-3">$4,800  <small class="text-muted">Costo por Persona</small></p>
+                    <p>Cotiza <strong>Planes de pago</strong></p>
+                    <a href="../PDF/CURSO INDIVIDUAL básico.pdf" download="CURSO_INDIVIDUAL_básico.pdf" class="btn btn-primary">Descargar PDF</a>
+                    <a  href="https://wa.me/message/4QQRLG45BWK7P1" target="_blank" class="btn btn-outline-secondary mt-2 w-100"><i class="fa-brands fa-whatsapp"></i> Contactarnos</a>
+                    <p class="text-muted">Agenda <strong>GRATIS desde HOY</strong></p>                    
+                    <ul class="list-unstyled">
+                        <li>✅ Presentación de flores adaptables al clima de nuestro estado</li>
+                        <li>✅ Presentación de flores finas</li>
+                        <li>✅ Cuidados e hidratación floral</li>
+                        <li>✅ Presentación de herramientas básicas florales</li>
+                        <li>✅ Limpieza floral</li>
+                        <li>✅ Papelerías para nuestros arreglos florales</li>
+                        <li>✅ Selección de flores</li>
+                        <li>✅ Técnicas para bouquet o arreglo floral en base</li>
+                        <li>✅ Elaboración de bouquet desde cero</li>
+                        <li>✅ Elaboración de arreglo floral desde 0</li>
+                        <li>✅ Folletos informativos</li>
+                        <li>✅ Material y herramientas para trabajar</li>
+                        <li>✅ <strong>Extra:</strong> Consejo de redes para tu negocio</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center">
+        <div class="container">
+          <!-- Icons -->
+          <div class="footer-icons mb-3">
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+            <a href="#" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="#" aria-label="Medium"><i class="bi bi-medium"></i></a>
+          </div>
+          <!-- Divider -->
+          <div class="divider"></div>
+          <!-- Footer content -->
+          <p class="mb-0">Raher.Dev</p>
+          <p class="mb-2">Copyright © 2025 InnovaDevSolutions, Inc.</p>
+          <div class="footer-links">
+            <a href="#">Información legal</a>
+            <a href="#">Política de privacidad</a>
+          </div>
+        </div>
+      </footer>
+    <script>
+        function changeImage(element) {
+            document.getElementById("mainImage").src = element.src;
+            document.querySelectorAll(".thumbnail").forEach(img => img.classList.remove("selected"));
+            element.classList.add("selected");
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
