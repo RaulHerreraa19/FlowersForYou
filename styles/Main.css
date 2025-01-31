@@ -116,12 +116,21 @@ header {
     transform: scale(1.05);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .card-img-top {
     height: 80%;
     object-fit: cover;
     object-position: center bottom;
+}
+
+.info-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+
 }
 
 .price {
