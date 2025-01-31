@@ -1,5 +1,5 @@
 body {
-    background-color: #d5cfd1;
+    background-color: #ffffff;
     font-family: "Belleza", serif;
     font-weight: 400;
     font-style: normal;
@@ -9,6 +9,8 @@ body {
 
 .section-white {
     background-color: #ffffff;
+    border-top: 5px solid #ff7a33;
+    border-bottom: 5px solid #ff7a33;
 }
 
 .products-section {
@@ -233,7 +235,6 @@ header {
     text-align: center;
     padding: 50px 20px;
     background-color: #fff;
-    border-top: 5px solid #ff7a33;
 }
 
 .contact-title {
