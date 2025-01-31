@@ -321,6 +321,11 @@ footer {
         margin: 0;
     }
 
+    .logo {
+        width: 40 !important;
+        height: 40 !important;
+    }
+
     .img-header {
         height: 50vh;
     }
