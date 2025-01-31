@@ -92,6 +92,35 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.custom-banner {
+    background: #fff9f3;
+    padding: 2.5rem 0;
+    margin: 2rem 0;
+    border-top: 3px solid #ffd8b5;
+    border-bottom: 3px solid #ffd8b5;
+}
+
+.banner-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.custom-banner h2 {
+    font-family: 'Belleza', sans-serif;
+    color: #5d4037;
+    font-size: 2.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.custom-banner .lead {
+    color: #795548;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+
 @media (max-width: 768px) {
     .product-gallery {
         flex-direction: column;
@@ -112,44 +141,15 @@
     }
 
     .custom-banner {
-        background: #fff9f3;
-        padding: 2.5rem 0;
-        margin: 2rem 0;
-        border-top: 3px solid #ffd8b5;
-        border-bottom: 3px solid #ffd8b5;
-    }
-
-    .banner-content {
-        max-width: 800px;
-        margin: 0 auto;
-        text-align: center;
+        padding: 1.5rem 15px;
     }
 
     .custom-banner h2 {
-        font-family: 'Belleza', sans-serif;
-        color: #5d4037;
-        font-size: 2.2rem;
-        margin-bottom: 1.2rem;
+        font-size: 1.8rem;
     }
 
     .custom-banner .lead {
-        color: #795548;
-        font-size: 1.1rem;
-        line-height: 1.6;
-        margin-bottom: 0;
+        font-size: 1rem;
     }
 
-    @media (max-width: 768px) {
-        .custom-banner {
-            padding: 1.5rem 15px;
-        }
-
-        .custom-banner h2 {
-            font-size: 1.8rem;
-        }
-
-        .custom-banner .lead {
-            font-size: 1rem;
-        }
-    }
 }
