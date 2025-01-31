@@ -7,6 +7,14 @@ body {
     padding: 0;
 }
 
+.section-white {
+    background-color: #ffffff;
+}
+
+.products-section {
+    background-color: #cdc5b1;
+}
+
 .img-conocenos {
     height: 30vh;
     border-radius: 30px;
@@ -41,7 +49,7 @@ header {
 }
 
 .title-text {
-    margin: 3vh;
+    padding: 5vh;
 }
 
 .abox {
@@ -90,13 +98,11 @@ header {
 
 
 .container-text {
-    margin: 10vh;
-    margin-left: 10vh;
-    word-wrap: break-word;
-    width: 80%;
+    margin: 5vh;
+    /* width: auto; */
     /* text-align: justify; */
     font-size: x-large;
-    margin-top: 3vh;
+
 }
 
 .product {
@@ -138,6 +144,10 @@ header {
     color: #555;
 }
 
+.menu-options:hover {
+    color: rgb(211 83 126) !important;
+    text-decoration: underline !important;
+}
 
 .team-section {
     text-align: center;
